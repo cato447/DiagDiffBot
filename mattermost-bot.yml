@@ -1,0 +1,15 @@
+name: mattermost-bot
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pandas
+  - tabulate
+  - tqdm
+  - matplotlib
+  - seaborn
+  - textdistance
+  - pip:
+      - mmpy_bot
+      - dateparser
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/mattermost-bot
